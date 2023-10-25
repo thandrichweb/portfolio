@@ -1,0 +1,8 @@
+:root {
+    --primary-color : hotpink;
+}
+
+body{
+    background-color: hotpink;
+    color: white;
+}
