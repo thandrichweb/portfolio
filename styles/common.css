@@ -2,7 +2,43 @@
     --primary-color : hotpink;
 }
 
+html,
+body{
+    height: 100vh;
+}
+
 body{
     background-color: hotpink;
     color: white;
+    margin: 0;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 100%;
+}
+
+.page-header {
+    height: 100px;
+    background-color: black
+}
+
+.content-wrapper {
+    background-color: white;
+    flex-grow: 1;
+}
+
+.content-container {
+    background-color: hotpink;
+    height: 100%;
+    width: 100%;
+    max-width: 600px;
+    margin: 0% auto;
+}
+
+.page-footer {
+    height: 100px;
+    background-color: black;
 }
